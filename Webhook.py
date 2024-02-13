@@ -55,7 +55,7 @@ class ShortenURL(Resource):
 api.add_resource(ShortenURL, '/shorten')
 
 if __name__ == '__main__':
-    print("I am working")
+    print("I am working now")
     zk_hosts = 'localhost:2181'  # Zookeeper hosts
     mongo_uri = 'mongodb://keshavrathor1998:toor1234@ac-ywneu7n-shard-00-00.2r72v4i.mongodb.net:27017,ac-ywneu7n-shard-00-01.2r72v4i.mongodb.net:27017,ac-ywneu7n-shard-00-02.2r72v4i.mongodb.net:27017/?replicaSet=atlas-13shfj-shard-0&ssl=true&authSource=admin'  # MongoDB URI
     app.run(debug=True)  # Run Flask app
